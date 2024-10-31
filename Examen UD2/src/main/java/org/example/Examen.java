@@ -12,6 +12,11 @@ public class Examen {
         Scanner teclado = new Scanner(System.in);
         Random random = new Random();
 
+        System.out.println("Elije una de las 3 opciones: Piedra (p), Papel(a), Tijera(t)");
+        String opc = teclado.nextLine();
+
+        
+
     }
 
     public void ejercicio2(){
